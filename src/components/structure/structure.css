@@ -1,0 +1,33 @@
+.structure-header {
+    color : black;
+    background-color: white;
+    height: 50px;
+    padding: 5px;
+    line-height: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.structure-repository {
+    box-sizing: border-box;
+    height: inherit;
+    padding: 0px 30px;
+    background: transparent;
+    max-width:400px !important;
+    flex: 0 0 350px !important;
+}
+.ant-collapse-content > .ant-collapse-content-box {
+    padding: 0px;
+    text-align: left;
+} 
+.ant-breadcrumb {
+    float: left;
+    line-height: 0.5;
+}
+.ant-layout {
+    background: transparent;
+}
+.ant-menu-inline {
+    border-right: 0.2px solid #e8e8e8;
+}
+p:hover {
+    background-color:#f0f2f5;
+}

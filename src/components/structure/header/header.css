@@ -1,0 +1,10 @@
+.small-tag {
+    float: left;
+}
+.course {
+    top: -10px;
+}
+.preview-button  {
+  background-color : black;
+  color: white;
+}

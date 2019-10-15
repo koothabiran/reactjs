@@ -1,0 +1,14 @@
+.menu-icon {
+    float: left;
+    margin-top: 12px;
+}
+.parent-collapse {
+    margin-top: -50px;
+    width: 275
+}
+.popover-span {
+    float: right;
+    margin-right: -150px;
+    font-size: x-large;
+    margin-top: -5px;
+}
