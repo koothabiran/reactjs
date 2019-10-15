@@ -1,26 +1,23 @@
 pipeline {
   agent any
-    
+
   tools {nodejs "node"}
-    
-  stages {
-        
+
+  stages {    
     stage('Cloning Git') {
       steps {
         git 'https://github.com/koothabiran/reactjs.git'
       }
-    }
-        
+    }        
     stage('Install dependencies') {
       steps {
-        sh 'npm install'
+        sh 'npm i -save express'
       }
-    }
-     
+    }     
     stage('Test') {
       steps {
-         sh 'npm start'
+         sh 'node server.js'
       }
-    }      
+    }             
   }
 }
